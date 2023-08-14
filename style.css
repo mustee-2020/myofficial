@@ -57,6 +57,60 @@ b{
     color: red;
     
 }
+.toggleSwitch {
+    position: relative;
+}
+.toggleSwitch .fa{
+    position: absolute;
+    font-size: 18px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    cursor: pointer;
+}
+.fa-sun{
+    display: none;
+    color: #fff;
+}
+.switch .fa-sun{
+    display: block;
+}
+.switch .fa-moon{
+    display: none;
+    
+}
+.switch .navItems li:hover a, 
+.links a :hover{
+    color: red;
+}
+.switch{
+    background-color: #36454f;
+}
+.switch .multi_Text{
+    color: #fff;
+}
+.switch p {
+    color: #fff;
+}
+.switch .logo {
+    color: #fff;
+}
+.switch .fab  {
+    color: #fff;
+}
+.switch .navItems li a {
+    color: #fff;
+}
+.switch p {
+    color: #fff;
+}
+.switch .topline {
+    color: #fff;
+}
+.switch h1 {
+    color: #fff;
+}
+
 .links a{
     font-size: 30px;
     color:#3d535f;

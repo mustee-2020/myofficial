@@ -47,12 +47,16 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
         var typingEffect = new Typed(".multi_Text", {
-            strings : ["A Frontend Developer", "A UI/UX Designer", "A Disaster Risk Analyst"],
+            strings : ["A Coder", "A Frontend Developer", "A UI/UX Designer"],
             loop : true,
             typeSpeed : 100,
             backSpeed : 80,
             backDelay : 1500 
         })
+        const toggleSwitch = document.querySelector('.toggleSwitch');
+        toggleSwitch.addEventListener('click', function(){
+            document.body.classList.toggle('switch');
+        });
     </script>
 </body>
 </html>
