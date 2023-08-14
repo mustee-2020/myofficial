@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>M.Y. Portfolio</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo"><b>P</b>ortfolio<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+            <div class="toggleSwitch">
+                <i class="fa fa-sun"></i>
+                <i class="fa fa-moon"></i>
+            </div>
+            <div class="links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multi_Text"></span></h1>
+                <p> Hello there! I'm a versatile professional with a passion for creating meaningful and impactful digital experiences. As a Frontend Developer and UI/UX Designer, I have a unique skill set to craft intuitive and visually stunning web applications that captivate users and enhance their online interactions. I'm well-versed in harnessing the power of Bootstrap 5, SASS, Tailwind, and Figma to bring my ideas to life. These tools enable me to create seamless and responsive solutions, ensuring that my projects perform optimally across various platforms and devices.</p>
+                <br>
+                <p> Thank you for visiting my portfolio, and I look forward to collaborating on projects that empower individuals, businesses, and communities through innovation and resilience.</p>
+                <button>Download CV</button>
+                <button>Projects</button>
+        </div>
+        <div class="cols cols1">
+            <div class="imgbox">
+                <!--<img src="splash.jpg" style="width: 350px; height: 350px;" id="splash">--> 
+                <img src="mustee.jpg" style="width: 200px; height: 250px;" alt="creator">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multi_Text", {
+            strings : ["A Frontend Developer", "A UI/UX Designer", "A Disaster Risk Analyst"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500 
+        })
+    </script>
+</body>
+</html>
